@@ -13,7 +13,7 @@ const Hero = () => {
                     playsInline
                     className="w-full h-full object-cover"
                 >
-                    <source src="/video/hero-schmidgall.mp4" type="video/mp4" />
+                    <source src="/video/hero-bg.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white/30 to-transparent" />
             </div>
