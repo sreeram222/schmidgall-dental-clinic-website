@@ -17,7 +17,7 @@ interface TestimonialCardProps extends Testimonial {
     position: string;
 }
 
-export function TestimonialCard({ handleShuffle, testimonial, position, id, author, date, initial }: TestimonialCardProps) {
+export function TestimonialCard({ handleShuffle, testimonial, position, author, date, initial }: TestimonialCardProps) {
     const dragRef = React.useRef(0);
     const isFront = position === "front";
 
